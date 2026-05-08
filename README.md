@@ -1,23 +1,34 @@
 # NaijaMarket-Intelligence 🇳🇬
 
-An advanced web automation suite built to track market trends and commodity prices across Nigerian e-commerce platforms. This project demonstrates the ability to bypass modern anti-bot protections and collect structured data for analysis.
+An advanced web automation and market-intelligence suite built to track real-time commodity prices and asset values across Nigerian e-commerce platforms. This project demonstrates expertise in bypassing modern anti-bot protections, handling dynamic content, and scaling data collection.
 
-## 🚀 Featured Scripts
+## 🚀 Key Features
 
-### 1. Ghost Car Scraper (`ghost_car_scraper.py`)
-- **Target:** Jiji Nigeria (Cars)
-- **Tech:** `undetected-chromedriver`, Selenium
-- **Challenge:** Successfully bypasses Cloudflare bot-shields and handles dynamic, infinite-scroll content.
-- **Output:** `nigeria_car_market_large.csv`
+### 1. Stealth Car Scraper (`ghost_car_scraper.py`)
+- **Target:** Jiji Nigeria (Automotive Sector)
+- **Tech:** `undetected-chromedriver`, Selenium, Python 3.14
+- **Capabilities:** - **Anti-Bot Bypass:** Successfully navigates Cloudflare "403 Forbidden" challenges.
+    - **Automated Pagination:** Loops through multiple search result pages to build high-volume datasets.
+    - **Human-Mimicry:** Implements randomized sleep intervals and scrolling behaviors to avoid rate-limiting.
+- **Result:** Captured 200+ unique vehicle listings with real-time pricing.
 
 ### 2. Healthcare Price Tracker (`old_and_young_tracker.py`)
 - **Target:** Major Nigerian Pharmacies (HealthPlus, Medplus)
-- **Tech:** Selenium, BeautifulSoup4
-- **Focus:** Tracking price fluctuations for infant care and geriatric (senior) chronic medications.
+- **Tech:** Hybrid Selenium/BeautifulSoup4 architecture.
+- **Focus:** Monitoring inflation and price volatility for Infant Care and Geriatric (Senior) medications.
 
 ## 🛠️ Technical Stack
-- **Language:** Python 3.14
-- **Libraries:** Pandas (Data Handling), Selenium (Automation), UC (Stealth)
+- **Languages:** Python 3.14 (Math & CS optimized)
+- **Libraries:** Pandas (Data Engineering), Selenium/Playwright (Automation), Undetected-Chromedriver (Stealth)
+- **Security:** ProtonMail-linked Git identity and credential management.
 
-## 📊 Data Insights
-The collected data is used to analyze market volatility, brand resale values, and the accessibility of essential healthcare products in the Nigerian market.
+## 💼 Commercial Applications
+The tools in this repository can be adapted for:
+- Competitive Price Intelligence
+- Lead Generation for Car Dealerships
+- Real-time Market Volatility Alerts
+- Historical Data Analysis for Investment Research
+
+---
+**Maintained by:** [Mr-Jama1](https://github.com/Mr-Jama1)  
+**Contact:** oluwaferanmi-abduljamal@proton.me
